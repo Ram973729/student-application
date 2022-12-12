@@ -1,1 +1,22 @@
 # student-application
+#Tkinter module
+from tkinter import*
+s=Tk()
+s.title("Student Application Form")
+Label(s,text="Student ID").grid(row=0)
+Label(s,text="Student Name").grid(row=1)
+Label(s,text="Father Name").grid(row=2)
+Label(s,text="Group").grid(row=3)
+Label(s,text="Phone Number").grid(row=4)
+Label(s,text="Email ID").grid(row=5)
+Label(s,text="Address").grid(row=6)
+Entry(s).grid(row=0,column=1)
+Entry(s).grid(row=1,column=1)
+Entry(s).grid(row=2,column=1)
+Entry(s).grid(row=3,column=1)
+Entry(s).grid(row=4,column=1)
+Entry(s).grid(row=5,column=1)
+Entry(s).grid(row=6,column=1)
+Button(s,text="Submit").grid(row=7)
+Button(s,text="Cancel").grid(row=7,column=1)
+mainloop()
